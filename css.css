@@ -513,3 +513,15 @@ dd {
 #emailsubscribe label {
 	font-weight:normal;
 	}
+
+
+
+.cols {
+	display:block;
+	width:100%;
+	padding-left:10px;
+}
+.cols div {
+	width:40%;
+	float:left;
+}
