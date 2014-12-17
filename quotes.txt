@@ -1,0 +1,12 @@
+<p class="desc">" There are no one-night stands with a dog. Once you let your pet into your bed, it's hard to get him out. "<br />- Diana Delmar</p>
+<p class="desc">" Do not make the mistake of treating your dogs like humans or they will treat you like dogs. "<br />- Martha Scott</p>
+<p class="desc">" If your dog is fat, you aren't getting enough exercise. "<br />- Anonymous</p>
+<p class="desc">" In a dog park, a person should be judged solely by their dog's behavior. "<br />- Anonymous</p>
+<p class="desc">" Never repeat a command. Most dogs are not deaf; they just choose not to listen. "<br />- Connie Jankowski</p>
+<p class="desc">" You think dogs will not be in heaven? I tell you, they will be there long before any of us. "<br />- Robert Louis Stevenson</p>
+<p class="desc">" Your dog is your only philosopher. "<br />- Plato</p>
+<p class="desc">" If you're not the lead dog, the view never changes. "<br />- Anonymous</p>
+<p class="desc">" The dog is a gentleman; I hope to go to his heaven, not man's. "<br />- Mark Twain</p>
+<p class="desc">" I care not for a man's religion whose dog and cat are not the better for it. "<br />-Abraham Lincoln</p>
+<p class="desc">" The greatness of a Nation and its moral progress can be judged by the way its animals are treated. "<br />- Mahatma Gandhi</p>
+<p class="desc">" Until he extends his circle of compassion to include all living things, man will not himself find peace. "<br />- Dr. Albert Schweitzer</p>

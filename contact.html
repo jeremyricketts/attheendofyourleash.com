@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>At The End of Your Leash - Contact Us</title>
+<meta name="description" content="At The End of Your Leash is a professional, on location, dog training business in Southern California.  We can assist you with all levels of obedience and behavior solutions as well as lifetime consulting and emergency services." />
+<meta name="keywords" content="Jenifer Freilich, southern, riverside, California, dog training, dog, obedience school, behavior, biting, peeing" />
+<link rel="stylesheet" type="text/css" href="css.css"/>
+<link rel="stylesheet" type="text/css" href="niftyCorners.css">
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+<!-- 10... years... later -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- /LOL -->
+<script type="text/javascript" src="js/lightbox/prototype.js"></script>
+<script type="text/javascript" src="js/lightbox/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="js/lightbox/lightbox.js"></script>
+</head>
+<script type="text/javascript" src="js/niftycube.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+	Nifty("div#container");
+	Nifty("p.block","normal");
+	Nifty("ul#nav a","small transparent top");
+	Nifty("a.sidelink","small transparent");
+	}
+</script>
+<body>
+<script language="JavaScript">
+
+jQuery(function() {
+
+	// Anti spm
+	// Reset the sp@m preventi0n value
+	jQuery('#spm').hide().val('spm');
+	// Prev3nt sp@m with a 8 second timer on the form
+	spm5sec = setTimeout(spm8secGo, 8000);
+	// After the 8 seconds, set the value
+	function spm8secGo() {
+		jQuery('#spm').val('spmOK');
+		// And reset the timer
+		clearTimeout(spm5sec);
+	}
+
+});
+
+function validateform() 
+{
+ var okSoFar=true
+ with (document.contactform)
+ {
+	
+ if (name.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter your name.")
+    name.focus()
+  }
+  
+  if (phone.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter a phone number.")
+    phone.focus()
+  }
+  
+    if (email.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter an email address.")
+    email.focus()
+  }
+  
+  var foundAt = email.value.indexOf("@",0)
+  if (foundAt < 1 && okSoFar)
+ {
+    okSoFar = false
+    alert ("Please enter a valid email address. \n Something like \"bob@gmail.com\"")
+    email.focus()
+  }
+  
+ if (referral.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter your method of referral. \nSomething like:\n * Yellow Pages\n * Dog Magazine Advertisement\n * somewebsite.com\n * Jane Doe")
+    referral.focus()
+  }
+
+ if (message.value=="" && okSoFar)
+  {
+    okSoFar=false
+    alert("Please enter the details of your inquiry.")
+    message.focus()
+  }
+
+  if (okSoFar==true)  submit();
+ }
+}
+</script>
+<div id="wrapper">
+<div style="height:15px;"></div>
+
+<div id="container" class="rounded">
+
+<div id="logo">
+<a href="index.html"><img src="images/logo3.gif" alt="At The End of Your Leash (TM)" width="300" height="90" align="left" /></a>
+<div id="tag">
+<p>A Dog Training &amp; Rehabilitation Center<br /> for Complete Canine Wellness.</p>
+</div><!--/tag -->
+</div><!-- /logo -->
+
+<div id="menu">
+	<ul id="nav">
+		<li><a href="/">Home</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="trainers.html">Trainers</a></li>
+		<li><a href="testimonials.html">Testimonials</a></li>
+		<li><a href="resources.html">Resources</a></li>
+		<li class="activelink"><a href="contact.html">Contact</a></li>
+	</ul>
+</div><!-- /menu -->
+	
+<div id="desccontact">
+<h2 class="desc">Committed Support</h2>
+<p class="desc">Because we understand how important your beloved family companion is to you we are committed to staying with you every step of the way, and happy to offer lifetime support and guidance.</p>
+<!-- <p class="right"><a href="#">Read more...</a></p>  -->
+</div><!-- /desc  -->
+
+<div id="main">
+
+<div id="contactform" style="display:none:">
+	<h3 class="large">Online Inquiry:</h3>
+		<form name="contactform" action="action_contact.html" method="post">
+				<dl>
+				<p class="block" style="margin-bottom:2px;">Your Information:</p>
+					<dt><label for="name">Name:</label><span>*</span></dt>
+						<dd><input name="name" type="text" id="name"/></dd>
+					<dt><label for="phone">Phone:</label><span>*</span></dt>
+						<dd><input name="phone" type="text" id="phone"/></dd>
+					<dt><label for="email">Email:</label><span>*</span></dt>
+						<dd><input name="email" type="text" id="email"/></dd>
+					<dt><label for="referral">Method of Referral:</label><span>*</span></dt>
+						<dd><input name="referral" type="text" id="referral"/></dd>
+				<p class="block" style="margin-bottom:2px;margin-top:24px;">Your Dog's Information:</p>
+					<dt><label for="pet_name">Name:</label></dt>
+						<dd><input name="pet_name" type="text" id="pet_name"/></dd>
+					<dt><label for="pet_breed">Breed:</label></dt>
+						<dd><input name="pet_breed" type="text" id="pet_breed"/></dd>
+					<dt><label for="pet_age">Age:</label></dt>
+						<dd><input name="pet_age" type="text" id="pet_age"/></dd>
+					<dt><label for="pet_sex">Sex:</label></dt>
+						<dd><input name="pet_sex" type="text" id="pet_sex"/></dd>
+					<dt class="labeltext"><label for="pet_concerns">Behavior Concerns</label></dt>
+				  <dd><textarea name="pet_concerns" class="formtext" id="pet_concerns"></textarea><br /></dd>
+					<dt class="labeltext"><label for="message">Your Inquiry:</label><span>*</span></dt>
+				  <dd>
+				  	<input name="spm" type="text" id="spm" />
+				  	<textarea name="message" class="formtext" id="message"></textarea>
+				  </dd>
+				</dl>
+				<a href="#" onclick="javascript:validateform()" style="border:none;"><img src="images/button.gif" width="88" height="22" border="0" style="margin-top:8px;" /></a>
+			</form>
+		</div><!-- /contactform -->
+
+<h3 class="large">Contact Us</h3>
+
+<p><strong>By Phone:</strong>
+<br />951-288-5034</p>
+
+<p><strong>By Email:</strong><br />
+jeniferfreilich@aol.com</p>
+
+<p><strong>By Mail:</strong><br />
+231 E. Alessandro Blvd. Suite A, #322<br />
+Riverside, Ca 92508</p>
+
+<!-- <div style="clear:right;">  -->
+
+<h3 class="large">Our Guarantee, and lifetime commitment to you and your companion...</h3>
+<p>We believe that all dogs have the ability to live in the present moment, move beyond past traumas, and learn new behaviors. For some dogs, it may take more time for them to become balanced, as well as more practice, and an open mind on behalf of the owners to help their dogs move forward. We guarantee the general effectiveness of all our training methods, and techniques in addition to ensuring client satisfaction with our professional services.</p>
+
+<p>Because we understand how important your beloved family companion is to you we are happy to offer unlimited support, and advice not only during your training program, but also for the life of your companion. We are committed to staying with you, and offering guidance every step of the way in order to make your experience with training, and pet companionship rewarding. Your trainers are also experienced at designing personalized training that meets your needs, and considers your dog's temperament, breed characteristics, genetic disposition, age, gender, and history.</p>
+
+<p>With our caring, and courteous trainers, our clients feel like family knowing their dogs are in loving hands. Please feel free to contact me directly for more information on our services.</p>
+
+<!-- </div>  -->
+
+</div><!-- /main -->
+
+<div id="sidebar">
+<h3>Giving Back:</h3>
+<p>At the End of Your Leash&trade; donates a portion of your fee, in your name to benefit the Wolf Mountain Sanctuary, Ginger's House Foundation, and our local fight against Breast Cancer. Please join us every October for the Corona Regional Medical Center Foundation's Annual "Grand Celebration Walk." Proceeds benefit Breast Cancer Programs at The Cancer Center at Corona Regional Medical Center.</p>
+
+<p><a class="sidelink" href="http://www.gingershouse.org" target="_blank">Ginger's House</a></p>
+<p><a class="sidelink" href="http://www.wolfmountain.com" target="_blank">Wolf Mountain Sanctuary</a></p>
+<p><a class="sidelink" href="http://www.coronaregional.com" target="_blank">Corona Regional Medical Center</a></p>
+
+<p><a href="photos/contact_side.jpg" rel="lightbox[]" title="Marzo, Jen, Gilbert, Martina, and Leeza; Corona Regional Medical Center's Grand Celebration Walk. Proceeds Benefit our local fight against Breast Cancer."><img src="photos/contact_side_thumb.jpg" height="174" width="130" alt=""  class="photo" /></a></p>
+
+<h3>Quote:</h3>
+<p class="block">" Until he extends his circle of compassion to include all living things, man will not himself find peace. "<br />
+~ Dr. Albert Schweitzer</p>
+
+</div><!-- /sidebar -->    
+<div id="footer">
+</div>
+
+</div><!-- /container -->
+</div><!-- /wrapper -->
+</body>
+</html>

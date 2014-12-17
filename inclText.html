@@ -1,0 +1,11 @@
+<?php
+
+$textfile ="http://attheendofyourleash.com/quotes.txt"; // change to the filename/path of your file with quotes.
+
+echo "<p>";
+$quotes = file("$textfile");
+$quote = rand(0, sizeof($quotes)-1);
+echo $quotes[$quote];
+echo "</p>";
+?>
+
