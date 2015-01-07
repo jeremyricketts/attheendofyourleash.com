@@ -1,4 +1,3 @@
-attheendofyourleash.com
-=======================
+# Go see the `gh-pages` branch.
 
-Like, one of the first sites I ever made. It just.. won't... die. 
+Nothing to see here.
